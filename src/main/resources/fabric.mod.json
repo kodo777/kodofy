@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "id": "examplemod",
+  "id": "btakodo",
   "version": "${version}",
 
-  "name": "Example Mod",
-  "description": "This mod aims to help new BTA modders.",
+  "name": "Minecraft Kodofy",
+  "description": "BTA! to Kodo's specifications.",
   "authors": [
-    "Turnip Labs"
+    "kodo777"
   ],
   "contact": {
     "homepage": "",
@@ -18,25 +18,12 @@
 
   "environment": "*",
   "entrypoints": {
-    "main": [
-			"turniplabs.examplemod.ExampleMod"
-    ],
-		"beforeGameStart": [
-			"turniplabs.examplemod.ExampleMod"
-		],
-		"afterGameStart": [
-			"turniplabs.examplemod.ExampleMod"
-		],
-		"recipesReady": [
-			"turniplabs.examplemod.ExampleMod"
-		]
 	},
   "mixins": [
-      "examplemod.mixins.json"
+		"btakodo.mixins.json"
   ],
 
   "depends": {
-		"minecraft": "7.1",
     "fabricloader": ">=0.15.5"
   },
   "suggests": {
