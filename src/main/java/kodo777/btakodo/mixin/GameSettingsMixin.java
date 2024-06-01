@@ -19,8 +19,6 @@ public class GameSettingsMixin {
 	@Shadow
 	public BooleanOption versionInOverlay;
 	@Shadow
-	public FloatOption cloudHeight;
-	@Shadow
 	public BooleanOption discordRichPresence;
 	@Shadow
 	public FloatOption autosaveTimer;
@@ -34,7 +32,6 @@ public class GameSettingsMixin {
 		this.biomeWater = new BooleanOption(settings,"biomeWater", false);
 		this.vignette = new BooleanOption(settings, "vignette", false);
 		this.versionInOverlay = new BooleanOption(settings,"versionInOverlay",true);
-		this.cloudHeight = new FloatOption(settings,"cloudHeight", -0.3f);
 		this.discordRichPresence = new BooleanOption(settings,"discordRichPresence", true);
 		this.autosaveTimer = new FloatOption(settings,"autosaveTimer", 0.51087f);
 		this.alwaysShowDescriptions = new BooleanOption(settings, "alwaysShowDescriptions", true);
