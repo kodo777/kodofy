@@ -4,13 +4,9 @@
   "package": "kodo777.btakodo.mixin",
   "compatibilityLevel": "JAVA_8",
   "mixins": [
-    "CoverPageMixin",
-    "EntityPlayerMixin",
+    "BiomeProviderOverworldMixin",
     "GameSettingsMixin",
-    "GameWindowLWJGL2Mixin",
-    "GuiIngameMenuMixin",
-    "GuiIngameMixin",
-    "GuiMainMenuMixin"
+    "PlayerMixin"
   ],
   "client": [
   ],
